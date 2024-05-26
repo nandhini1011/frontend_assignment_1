@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Landing page</title>
+    
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    
+     <!-- Bootstrap JS link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+     <header id="header" class="header fixed-top ">
+        <nav id="navmenu" class="navbar navbar-expand-lg">
+            <section class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center me-10" href="index.html">
+                    <img class="mx-2" src="./src/logo.png" alt="logo" style="height:50px;">
+                    <h1 class="sitename">onstores</h1>
+                </a>   
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse align-items-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#solutions">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Learn</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="log-in">
+                    <a href="#" class="btn-log-in">
+                        Log-In
+                    </a>
+                </div>
+                <div class="free-trial">
+                    <a href="#" class="btn btn-light">Start free trail</a>
+                </div>
+            </section>
+
+        </nav>
+     </header>
+
+     <section class="intro d-flex align-items-center">
+        <div class="container-fluid justify-content-center">
+            <div class="row">
+                <div class="text-center">
+                  <h1>GROW YOUR BUSINESS HERE</h1>
+                  <h2>Whether you want to sell products down the street or around the world, we have all the tools you need.</h2>
+                    <div class="text-center">
+                      <a href="#about" class="btn btn-info px-5 mt-5">
+                        Get Started
+                      </a> 
+                    </div>
+                </div>
+            </div>
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L120,256C240,256,480,256,720,245.3C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+        </div>
+     </section>
+     
+     <section class="features py-10">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col col-lg-6">
+                    <div class="feature-1-about">
+                        <h3 class="topic display-5">Unmatched storefront design</h3>
+                        <p>Build high-converting storefronts and product pages customized for your brand. Leverage built-in AI features and exceptional no-code creation to turn your vision into reality even faster.</p>
+                        <button type="button" class="btn btn-dark">Design Your Store</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-1-img">
+                    <img src="src/feature-1.jpeg" class="img-fluid" alt="feature" >
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="solutions mt-5">
+        <div class="container-lg p-3">
+            <div class="topic text-center">
+                <h2 class="display-4">Solutions We Offer!!!</h2>                
+            </div>
+        </div>
+    
+        <div class="row m-3  justify-content-center">
+            <div class="col-10 col-lg-3 col-xl-3">
+                <div class="card border-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary-emphasis display-5 text-center">Start</h5>
+                        <img class="card-img-top img-fluid" src="./src/start.jpeg" >
+                        <ul class="solutions-list ">
+                            <li>Start your business</li>
+                            <li>Create your website</li>
+                            <li>Customize your online store</li>
+                            <li>Own your site domain</li>
+                            <li>Explore free business tools</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="col-10 col-lg-3 col-xl-3">
+                <div class="card border-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary-emphasis display-5 text-center">Sell</h5>
+                        <img class="card-img-top img-fluid mb-2" src="./src/sell.jpeg" >
+                        <ul class="solutions-list align-items-start">
+                            <li>Sell products online</li>
+                            <li>Checkout customers</li>
+                            <li>Sell across channels</li>
+                            <li>Sell wholesale & direct(B2B)</li>
+                            <li>Accept online payment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-10 col-lg-3  col-xl-3">
+                <div class="card border-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary-emphasis display-5 text-center">Marketing</h5>
+                        <img class="card-img-top img-fluid mb-3" src="./src/marketing.jpeg" >
+                        <ul class="solutions-list align-items-start">
+                            <li>Market your business</li>
+                            <li>Market across social</li>
+                            <li>Chat with customers</li>
+                            <li>Nurture customers</li>
+                            <li>Know your audience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-10 col-lg-3 col-xl-3">
+                <div class="card border-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary-emphasis display-5 text-center">Manage</h5>
+                        <img class="card-img-top img-fluid mb-1" src="./src/manage.png" >
+                        <ul class="solutions-list align-items-start">
+                            <li>Measure your performance</li>
+                            <li>Ship order faster</li>
+                            <li>Manage your stocks & orders</li>
+                            <li>Secure business financing</li>
+                            <li>Automate your business</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="review">
+        <div class="container-lg p-3">
+            <div class="text-center">
+                <h2 class="topic display-4">Meet the people who chose us</h2>                
+            </div>
+        </div>
+        <div id="carouselreviewInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <div class="card d-block w-100" style="max-width: 800px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="src/review-1.jpg" class="img-fluid rounded-start" alt="review-1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text fs-4">“Extending our retail business to online sales was quick and easy since <span class="fw-bold">Q-onstrores</span> seamlessly integrates with our in-store inventory.”</p>
+                                    <p class="card-text"><small class="text-body-secondary">Aliva Haruthunian</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                    <div class="card d-block w-100 mb-3 " style="max-width: 800px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="src/review-2.jpg" class="img-fluid rounded-start" alt="review-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text fs-4">"Turning my vision into a website using <span class="fw-bold">Q-onstrores</span> Website Builder was a breeze, all thanks to its simplicity and speed."</p>
+                                    <p class="card-text"><small class="text-body-secondary">Indira Prieto</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                    <div class="card d-block w-100 mb-3 " style="max-width: 800px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="src/review-3.jpg" class="img-fluid rounded-start" alt="review-3">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text fs-4">"We went from burning beans in our garage to needing a 10,000 sq. ft facility to meet customer demand."</p>
+                                    <p class="card-text"><small class="text-body-secondary">Rod Johnson</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselreviewInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselreviewInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </section>
+
+     <footer class="footer bg-dark">
+        <div class="text-center">
+            <h2>To get your free trail</h2>
+                <div class="form">
+                    <input type="text" class="form-control my-3" placeholder="Your Name" aria-label="Your Name">
+                    <input type="email" class="form-control my-3"  placeholder="Your Email" aria-label="Your Email">
+                    <input type="text" class="form-control my-3"  placeholder="Your Company/Store name" aria-label="our Company/Store name">
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
+            <h3 >To Know More About Us</h3>
+            <h4>Follow us on</h4>
+            <div class="social">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <h4>Contact us<h4>
+            <div class="contact">
+                <a href="#"><i class="bi bi-envelope-at"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="@134567895"><i class="bi bi-telephone"></i></a>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>

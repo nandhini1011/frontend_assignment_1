@@ -1,0 +1,89 @@
+*{
+    margin : 0;
+    border : 0;
+    box-sizing: border-box;
+}
+
+h1,h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 2px double white;
+}
+
+.sitename{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.intro{
+    background-color: black;
+    padding-top : 200px;  
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+
+.intro h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: aqua;
+}
+
+.intro h2{
+    color: wheat;
+}
+
+.btn-log-in{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.topic{
+    color: blue;
+}
+
+.review{
+    margin-bottom: 30px;
+}
+
+.review .card{
+    margin-left: 200px;
+    background-color: aliceblue;
+}
+
+.footer{
+    padding: 30px;
+    color: white;
+}
+
+.form{
+    margin-block : 30px;
+    margin-inline: 100px;
+}
+
+.social a , .contact a{
+    margin : 5px;
+    color: aqua;
+}
