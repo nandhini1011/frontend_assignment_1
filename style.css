@@ -9,20 +9,25 @@ h1,h2 {
 }
 
 .header {
-    background-color: black;
-    border-bottom: 2px double white;
+    background-color: white;
 }
 
 .sitename{
-    color: white;
+   color: blue;
+   margin-right:10rem;
 }
 
 .nav-link{
-    color: white;
+   color: black;
+   align-items: end;
 }
 
 .navbar-toggler{
-    background-color: white;
+   background-color: blue;
+}
+
+.nav-link{
+    margin-right: 15px;
 }
 
 .nav-link:hover{
@@ -30,38 +35,49 @@ h1,h2 {
     font-weight: bold;
 }
 
+.btn-log-in{
+    color: blueviolet;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
 .intro{
-    background-color: black;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     padding-top : 200px;  
     padding-bottom: 80px;
     margin-bottom: 80px;
 }
 
-
 .intro h1{
     font-size: 80px;
     font-weight: 700;
-    color: aqua;
+    color:white;
 }
 
 .intro h2{
     color: wheat;
 }
 
-.btn-log-in{
-    color: white;
-    text-decoration: none;
-    padding-right: 20px;
+.color-grad{
+    background-image: linear-gradient(to right, #6bb7d1, #53b1d9, #3ca9e0, #2da1e8, #3097ed, #3a90f2, #4b89f6, #5f80f7, #6e7afa, #7f73fc, #916afd, #a35ffb);
 }
+
 
 .wave{
     position: absolute;
     left: 0;
     bottom: 0;
+    
 }
 
 .topic{
     color: blue;
+}
+
+.logo{
+    height: 5rem;
+    width: 5rem;
 }
 
 .review{
@@ -73,7 +89,14 @@ h1,h2 {
     background-color: aliceblue;
 }
 
+.pricing .card{
+    border: 2px solid blue;
+    height: 27rem;
+}
+
 .footer{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     padding: 30px;
     color: white;
 }
